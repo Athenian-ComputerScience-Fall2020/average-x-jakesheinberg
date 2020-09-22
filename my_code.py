@@ -3,12 +3,22 @@
 
 def avg(user_list):
     # Insert code here
+    average=sum(user_list)/len(user_list)
     return average
+user_list=[]
+howmany=int(input("how many numbers would you like to enter: "))
+entered=0
+while entered<howmany:
+    number=float(input("Enter a number: "))
+    user_list.append(number)
+    entered=entered+1
+
+
 
 
 if __name__ == '__main__':
     # test your fucntion with this print statement before writing the input loop
-    print(avg([x, y, z]))    # Put the values you want to test in for x,y and z
+    print(avg(user_list))   # Put the values you want to test in for x,y and z
 
     # Now, comment out the print statement and work on the code below
     # Remember to indent in this section
