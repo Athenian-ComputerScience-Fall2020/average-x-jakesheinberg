@@ -5,13 +5,13 @@ def avg(user_list):
     # Insert code here
     average=sum(user_list)/len(user_list)
     return average
-user_list=[]
-howmany=int(input("how many numbers would you like to enter: "))
-entered=0
-while entered<howmany:
-    number=float(input("Enter a number: "))
-    user_list.append(number)
-    entered=entered+1
+#user_list=[]
+#how_many=int(input("How many numbers would you like to enter: "))
+#entered=0
+#while entered<how_many:
+    #number=float(input("Enter a number: "))
+    #user_list.append(number)
+    #entered=entered+1
 
 
 
